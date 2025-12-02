@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@300;400;500;600;700&display=swap');
+
+@layer base {
+  body {
+    @apply bg-white text-text-dark font-sans;
+  }
+}
+
+@layer utilities {
+  /* Scrollbar minimalista */
+  .chat-scrollbar::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  .chat-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  .chat-scrollbar::-webkit-scrollbar-thumb {
+    background: #E8F0FF;
+    border-radius: 3px;
+  }
+  
+  .chat-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #68A8FF;
+  }
+}
