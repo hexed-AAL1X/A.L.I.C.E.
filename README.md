@@ -12,7 +12,7 @@
 <br>
 
 <div align="center">
-  <img src="docs/alice-logo-hero.png" alt="A.L.I.C.E." width="420" />
+  <img src="docs/alice-logo-hero.png" alt="A.L.I.C.E." width="420" style="margin: 7px;" />
   <h3 align="center">A.L.I.C.E. Frontend</h3>
   <p align="center">
     Frontend web (Next.js) del asistente LLM A.L.I.C.E. — chat, tema claro/oscuro y splash de carga.
