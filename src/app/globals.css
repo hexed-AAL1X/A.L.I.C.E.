@@ -2,30 +2,53 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap');
 
-@layer base {
-  body {
-    @apply bg-white text-text-dark font-sans;
-  }
+:root {
+  --alice-ink: #121214;
+  --alice-ink-soft: #1a1a1d;
+  --alice-muted: #8a8a90;
+  --alice-line: #2c2c30;
+  --alice-soft: #ececee;
+  --alice-paper: #f4f5f8;
+  --alice-accent: #3a3a40;
+  --alice-dark: #0a0a0b;
+  --alice-dark-panel: #111113;
+  --alice-dark-hover: #1a1a1d;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  @apply font-sans antialiased;
+  background: var(--alice-paper);
+  color: var(--alice-ink);
+}
+
+html[data-theme='dark'],
+html[data-theme='dark'] body {
+  background: #0a0a0b;
+  color: #f2f2f3;
+}
+
+html[data-theme='light'],
+html[data-theme='light'] body {
+  background: #f4f5f8;
+  color: #121214;
 }
 
 @layer utilities {
-  /* Scrollbar minimalista */
   .chat-scrollbar::-webkit-scrollbar {
     width: 6px;
   }
-  
   .chat-scrollbar::-webkit-scrollbar-track {
     background: transparent;
   }
-  
   .chat-scrollbar::-webkit-scrollbar-thumb {
-    background: #E8F0FF;
-    border-radius: 3px;
-  }
-  
-  .chat-scrollbar::-webkit-scrollbar-thumb:hover {
-    background: #68A8FF;
+    background: #3a425c;
+    border-radius: 999px;
   }
 }

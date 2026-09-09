@@ -8,20 +8,27 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        // Paleta ElevenLabs
-        'primary-blue': '#1A4FBF',
-        'light-blue': '#68A8FF',
-        'deep-blue': '#0B2A66',
-        'blue-gray': '#E8F0FF',
-        'text-dark': '#0D0D0D',
-        'text-gray': '#555555',
+        'alice-ink': '#121214',
+        'alice-ink-soft': '#1a1a1d',
+        'alice-muted': '#8a8a90',
+        'alice-line': '#2c2c30',
+        'alice-soft': '#ececee',
+        'alice-paper': '#f4f5f8',
+        'alice-accent': '#3a3a40',
+        'alice-dark': '#0a0a0b',
+        'primary-blue': '#3a3a40',
+        'light-blue': '#9a9aa0',
+        'deep-blue': '#0a0a0b',
+        'blue-gray': '#ececee',
+        'text-dark': '#121214',
+        'text-gray': '#5c5c64',
       },
       fontFamily: {
-        sans: ['Inter', 'system-ui', 'sans-serif'],
-        display: ['Sora', 'system-ui', 'sans-serif'],
+        sans: ['Outfit', 'system-ui', 'sans-serif'],
+        display: ['Source Serif 4', 'Georgia', 'serif'],
       },
       letterSpacing: {
-        'brand': '0.04em',
+        brand: '0.08em',
       },
     },
   },

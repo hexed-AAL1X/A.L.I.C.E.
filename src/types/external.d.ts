@@ -1,2 +1,1 @@
-declare module 'aos';
-declare module 'lenis';
+declare module 'framer-motion';
