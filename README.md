@@ -12,7 +12,7 @@
 <br>
 
 <div align="center">
-  <img src="public/alice-eye.webp" alt="A.L.I.C.E." width="120" />
+  <img src="docs/alice-logo-hero.png" alt="A.L.I.C.E." width="420" />
   <h3 align="center">A.L.I.C.E. Frontend</h3>
   <p align="center">
     Frontend web (Next.js) del asistente LLM A.L.I.C.E. — chat, tema claro/oscuro y splash de carga.
@@ -57,8 +57,8 @@
 <a id="about-the-project"></a>***About the project***
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-<p align="center">
-  <img src="public/alice-logo.webp" alt="A.L.I.C.E. wordmark" width="420" />
+<p align="center" style="margin: 7px;">
+  <img src="docs/dashboard-preview.png" alt="Dashboard de A.L.I.C.E." width="900" style="margin: 7px;" />
 </p>
 
 **A.L.I.C.E.** (frontend) es la interfaz de chat del asistente LLM.
